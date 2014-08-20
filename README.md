@@ -25,9 +25,9 @@ ipython notebook --no-browser
 
   git push
 
-1. On at https://github.com/USERNAME/Assignment1
+1. At https://github.com/USERNAME/Assignment1
    [Create a **pull request**][pull-request] on the
-   [fdac/Assignment1][assignment]  to
+   original repository [fdac/Assignment1][assignment]  to
    turn in the assignment.
 
 <!-- Links -->
