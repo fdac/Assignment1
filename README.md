@@ -1,17 +1,19 @@
 Assignment1
 ===========
-1. To start, [**fork** repository][forking] [fdac/Assignment1](https://github.com/fdac/Assignment1).
-1. [**Clone**][ref-clone] the repository to your virtual machine.
+1. To start, [**fork** repository][forking] [fdac/Assignment1][assignment]
+1. Connect to your virtual machine and
+1. [**Clone**][ref-clone] the repository to your virtual machine
 
     git clone https://USERNAME@github.com/USERNAME/Assignment1	
 
-1. Run
+1. Then run
 
 ipython notebook --no-browser
 
-1. Point your browser http://localhost:8888
+1. Point your browser (on your laptop or, optionally on your virtual
+   machine) to http://localhost:8888
 1. Edit the example to complete the assignment
-1. [**commit**][ref-commit] changes to complete your solution.
+1. On the virtual machine [**commit**][ref-commit] changes to complete your solution.
 
    cd ~/Assignment1
 
@@ -23,9 +25,13 @@ ipython notebook --no-browser
 
   git push
 
-1. [Create a **pull request**][pull-request] on the original repository to turn in the assignment.
+1. On at https://github.com/USERNAME/Assignment1
+   [Create a **pull request**][pull-request] on the
+   [fdac/Assignment1][assignment]  to
+   turn in the assignment.
 
 <!-- Links -->
+[assignment]: https://github.com/fdac/Assignment1
 [forking]: https://guides.github.com/activities/forking/
 [ref-clone]: http://gitref.org/creating/#clone
 [ref-commit]: http://gitref.org/basic/#commit
