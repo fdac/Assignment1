@@ -1,6 +1,6 @@
 Assignment1
 ===========
-1. To start, [**fork** repository][forking] [fdac/Assignment1](fdac/Assignment1).
+1. To start, [**fork** repository][forking] [fdac/Assignment1](https://github.com/fdac/Assignment1).
 1. [**Clone**][ref-clone] the repository to your virtual machine.
 
     git clone https://USERNAME@github.com/USERNAME/Assignment1	
