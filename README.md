@@ -8,7 +8,7 @@ Assignment1
 
 1. Then run
 
-ipython notebook --no-browser
+   ipython notebook --no-browser
 
 1. Point your browser (on your laptop or, optionally on your virtual
    machine) to http://localhost:8888
@@ -25,9 +25,9 @@ ipython notebook --no-browser
 
   git push
 
-1. On at https://github.com/USERNAME/Assignment1
-   [Create a **pull request**][pull-request] on the
-   [fdac/Assignment1][assignment]  to
+1. At https://github.com/USERNAME/Assignment1
+   Create a [**pull request**][pull-request] on the
+   original repository [fdac/Assignment1][assignment]  to
    turn in the assignment.
 
 <!-- Links -->
