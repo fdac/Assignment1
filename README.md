@@ -2,15 +2,12 @@ Assignment1
 ===========
 1. To start, [**fork** repository][forking] [fdac/Assignment1][assignment]
 1. Connect to your virtual machine
-  * if using ssh consider creating following entry in ~/.ssh/config
+  * if using ssh consider creating the following entry in ~/.ssh/config
 
-    host da
-   
+    `host da
       user cosc
-	  
       hostname 192.168.56.2
-	  
-      LocalForward 8888 127.0.0.1:8888
+      LocalForward 8888 127.0.0.1:8888`
 
     then simply ssh da
 	
@@ -21,19 +18,17 @@ Assignment1
 
   If you have not set these up, please do (replace USERNAME with your own):
 
-    git config --global user.name USERNAME
-
-    git config --global user.email USERNAME@users.noreply.github.com
+    `git config --global user.name USERNAME
+    git config --global user.email USERNAME@users.noreply.github.com`
 
   You may also set up your credentials to be cashed (in seconds: 3600=1hour)
 
-    git config credential.helper 'cache --timeout=3600'
+    `git config credential.helper 'cache --timeout=3600'`
 
   Set up your default editor (if you like "vi" it is default)
 
-    git config --global core.editor nano
-
-    git clone https://USERNAME@github.com/USERNAME/Assignment1	
+    `git config --global core.editor nano
+    git clone https://USERNAME@github.com/USERNAME/Assignment1`	
 
    You will be asked to enter your github username and password
 	
@@ -42,7 +37,7 @@ Assignment1
 
 1. Then run
 
-   ipython notebook --no-browser
+   `ipython notebook --no-browser`
 
 1. Point your browser (on your laptop or, optionally on your virtual
    machine) to http://localhost:8888
@@ -51,11 +46,9 @@ Assignment1
 
    (you may need to press <ctrl-C> to kill ipython notebook that was running)
 
-   cd ~/Assignment1
-
+   `cd ~/Assignment1
    git add --all
-
-   git commit
+   git commit`
 
    Now you will get from shell into editor:
      * if vi: type: i your commit comment <ESC> ZZ
@@ -66,7 +59,7 @@ Assignment1
 
 1. [**Push**][ref-push]/sync the changes to GitHub.
 
-  git push
+  `git push`
 
 1. At https://github.com/USERNAME/Assignment1
    Create a [**pull request**][pull-request] on the
