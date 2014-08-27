@@ -46,15 +46,15 @@ Assignment1
 1. Edit the example to complete the assignment
 1. On the virtual machine [**commit**][ref-commit] changes to complete your solution.
 
-   (you may need to press <ctrl-C> to kill ipython notebook that was running)
+   (you may need to press \<ctrl-C\> to kill ipython notebook that was running)
     ```
 	cd ~/Assignment1
 	git add --all
 	git commit
     ```
    Now you will get from shell into editor:
-     * if vi: type: i your commit comment <ESC> ZZ
-	 * if nano: your commit comment <ctrl-X> Y (to save changes)
+     * if vi: type: i your commit comment \<ESC\> ZZ
+	 * if nano: your commit comment \<ctrl-X\> Y (to save changes)
        <enter> to confirm the file name
 
    Now back in the shell
