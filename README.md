@@ -4,7 +4,30 @@ Assignment1
 1. Connect to your virtual machine and
 1. [**Clone**][ref-clone] the repository to your virtual machine
 
+If you have not set these up, please do (replace USERNAME with
+your own):
+
+git config --global user.name USERNAME
+
+git config --global user.email USERNAME@users.noreply.github.com
+
+You may also set up your credentials to be cashed (in seconds: 3600
+= 1hour)
+
+git config credential.helper 'cache --timeout=3600'
+
+Set up your default editor (if you like "vi" it is default)
+
+git config --global core.editor nano
+
+
     git clone https://USERNAME@github.com/USERNAME/Assignment1	
+
+    You will be asked to enter your github username and password
+	
+   * Username for 'https://github.com': 
+   * Password for 'https://USERNAME@github.com': 
+
 
 1. Then run
 
@@ -15,11 +38,20 @@ Assignment1
 1. Edit the example to complete the assignment
 1. On the virtual machine [**commit**][ref-commit] changes to complete your solution.
 
+(you may need to press ctrl-C to kill ipython notebook that was running)
+
    cd ~/Assignment1
 
    git add --all
 
    git commit
+
+   Now you will get from shell into editor:
+     * if vi: type: i your commit comment <ESC> ZZ
+	 * if nano: your commit comment <ctrl-X> Y (to save changes)
+       <enter> to confirm the file name
+
+   Now back in the shell
 
 1. [**Push**][ref-push]/sync the changes to GitHub.
 
