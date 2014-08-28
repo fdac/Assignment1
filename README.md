@@ -10,12 +10,9 @@ Assignment1
         hostname 192.168.56.2
         LocalForward 8888 127.0.0.1:8888
     ```
-
      then simply ssh da
-	
     * If using putty, don't forget to save session information so you
     can load it and connect next time
-  
 1. [**Clone**][ref-clone] the repository to your virtual machine
 
   If you have not set these up, please do (replace USERNAME with your own):
@@ -32,11 +29,9 @@ Assignment1
 	git config --global core.editor nano
 	git clone https://USERNAME@github.com/USERNAME/Assignment1
     ```
-   You will be asked to enter your github username and password
-	
+   You will be asked to enter your github username and password	
    * Username for 'https://github.com': 
    * Password for 'https://USERNAME@github.com': 
-
 1. Then run
     ```
 	ipython notebook --no-browser
@@ -58,7 +53,6 @@ Assignment1
        <enter> to confirm the file name
 
    Now back in the shell
-
 1. [**Push**][ref-push]/sync the changes to GitHub.
     ```
 	git push
