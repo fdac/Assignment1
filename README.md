@@ -20,11 +20,11 @@ Assignment1
 	git config --global user.name USERNAME
 	git config --global user.email USERNAME@users.noreply.github.com
     ```
-  You may also set up your credentials to be cashed (in seconds: 3600=1hour)
+  You may also want to set up your credentials to be cashed (in seconds: 3600=1hour)
     ```
 	git config credential.helper 'cache --timeout=3600'
     ```
-  Set up your default editor (if you like "vi" it is default)
+  Set up your default editor (vi is set by default)
     ```
 	git config --global core.editor nano
 	git clone https://USERNAME@github.com/USERNAME/Assignment1
@@ -36,9 +36,9 @@ Assignment1
     ```
 	ipython notebook --no-browser
     ```
-1. Point your browser (on your laptop or, optionally on your virtual
+1. Point your browser (on your laptop or, optionally, on your virtual
    machine) to http://localhost:8888
-1. Edit the example to complete the assignment
+1. Edit/Run the example in the browser to complete the assignment
 1. On the virtual machine [**commit**][ref-commit] changes to complete your solution.
 
    (you may need to press \<ctrl-C\> to kill ipython notebook that was running)
