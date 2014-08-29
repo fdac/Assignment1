@@ -1,5 +1,11 @@
 Assignment1
 ===========
+If you have missed lecture on Aug 29 please take a look at the recording
+[Aug 29, 2014 ecording](http://audris.utk-eecs.podcast.323link.com/player.html?episode_id=120)
+
+### Due before class on Sept 8
+
+
 1. To start, [**fork** repository][forking] [fdac/Assignment1][assignment]
 1. Connect to your virtual machine
     * if using ssh consider creating the following entry in ~/.ssh/config
