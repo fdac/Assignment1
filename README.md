@@ -1,7 +1,7 @@
 Assignment1
 ===========
-If you have missed lecture on Aug 29 please take a look at the recording
-[Aug 29, 2014 ecording](http://audris.utk-eecs.podcast.323link.com/player.html?episode_id=120)
+If you have missed the lecture on Aug 29 please take a look at the recording:
+[Aug 29, 2014 recording](http://audris.utk-eecs.podcast.323link.com/player.html?episode_id=120)
 
 ### Due before class on Sept 8
 
