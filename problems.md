@@ -77,15 +77,33 @@ a) empty characters
 
 T5 David/Josh/Chris/Sadika
 ---
-..
+
+c) The Gutenburg books include lengthy licenses, which should not be accounted for in the analysis
+
+g) Books written in different eras
+
+h) Books of differing genres
+
+l) Partial/Incomplete Books (ex. missing chapters)
+
+d) Incorrect translations
+
+a) Whether words with punctuation in them count as the same word as the version without punctuation changes results
+
+
 
 Additional
 ---
 o) wrong author
+
 p) wrong unit (chapter not whole novel?)
+
 q) why exclude stopwords
+
 r) what about handwriting?
+
 s) lost word order by looking into frequencies
+
 t) how about infrequent words or looking at the entire distribution
 
 ___
@@ -96,15 +114,23 @@ Summary of issues
 
 a) Empty space as a word (stopwords/html not yet caught)
 
+a) Whether words with punctuation in them count as the same word as
+the version without punctuation c
+hanges results
+
 a) empty characters
 
 a) incorrect regex -> missing or extra words
 
 b) vernacular words
 
+c) The Gutenburg books include lengthy licenses, which should not be accounted for in the analysis
+
 c) copyright
 
 c) extra data (title and author randomly placed in text)
+
+d) Incorrect translations
 
 d) Translatability - context
 
@@ -120,7 +146,11 @@ f) various forms of words (verb tenses, possessive, etc)
 
 f) various forms of words (verb tenses, possessive, etc)
 
+g) Books written in different eras
+
 g) Time-period, gender - context
+
+h) Books of differing genres
 
 h) Genre - context
 
@@ -135,6 +165,8 @@ j) Extraneous words (Gutenberg)
 j) legalese, formatting words
 
 k) Words that don't carry significant meaning alone (would/could/will)
+
+l) Partial/Incomplete Books (ex. missing chapters)
 
 l) missing pages
 
