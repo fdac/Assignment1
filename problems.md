@@ -1,5 +1,5 @@
-#Presentations
-
+Presentations
+===
 * What is the question?
 * What was the approach?
 * What problems did I encounter?
@@ -7,11 +7,11 @@
 * What new ideas did this generate?
 
 
-#Data problems
-### T1 From Alok/Deytia/Tyler/Kapil
-
+Data problems
+====
+T1 From Alok/Deytia/Tyler/Kapil
+---
 a) incorrect regex -> missing or extra words
-
 b) vernacular words
 
 c) extra data (title and author randomly placed in text)
