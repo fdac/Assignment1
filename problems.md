@@ -9,6 +9,7 @@ Presentations
 
 Data problems
 ====
+
 T1 From Alok/Deytia/Tyler/Kapil
 ---
 a) incorrect regex -> missing or extra words
@@ -22,6 +23,7 @@ d) translator bias
 e) time-frame of the public (out of copyright) texts
 
 f) various forms of words (verb tenses, possessive, etc)
+
 T2 From Chunyn/John/RJ
 ___
 d) Translatability - context
@@ -33,6 +35,7 @@ h) Genre - context
 i) Semantics (the same word used for different meaning) - context
 
 e) Only non-copyright books
+
 T3 DJ/Mark/Sam
 ___
 a) Empty space as a word (stopwords/html not yet caught)
@@ -45,6 +48,7 @@ k) Words that don't carry significant meaning alone
   (would/could/will)
 
 i) Semantics (the same word used for different meaning) - context
+
 T4 Camille/Mohammad/Bryan
 ___
 * Multiple Contexts
@@ -70,6 +74,7 @@ j) legalese, formatting words
 n) incorrect digital copies
 
 a) empty characters
+
 T5 David/Josh/Chris/Sadika
 ___
 ..
