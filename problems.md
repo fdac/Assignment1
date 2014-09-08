@@ -11,7 +11,7 @@ Data problems
 ====
 T1 From Alok/Deytia/Tyler/Kapil
 ---
-a) incorrect regex -> missing or extra words
+a) incorrect regex -> missing or extra words\n
 b) vernacular words
 
 c) extra data (title and author randomly placed in text)
