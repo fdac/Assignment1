@@ -11,10 +11,15 @@
 ### T1 From Alok/Deytia/Tyler/Kapil
 
 a) incorrect regex -> missing or extra words
+
 b) vernacular words
+
 c) extra data (title and author randomly placed in text)
+
 d) translator bias
+
 e) time-frame of the public (out of copyright) texts
+
 f) various forms of words (verb tenses, possessive, etc)
 
 ### T2 From Chunyn/John/RJ
