@@ -25,7 +25,7 @@ e) time-frame of the public (out of copyright) texts
 f) various forms of words (verb tenses, possessive, etc)
 
 T2 From Chunyn/John/RJ
-___
+---
 d) Translatability - context
 
 g) Time-period, gender - context
@@ -37,7 +37,7 @@ i) Semantics (the same word used for different meaning) - context
 e) Only non-copyright books
 
 T3 DJ/Mark/Sam
-___
+---
 a) Empty space as a word (stopwords/html not yet caught)
 
 e) Restricted to books on project Gutenberg
@@ -50,7 +50,7 @@ k) Words that don't carry significant meaning alone
 i) Semantics (the same word used for different meaning) - context
 
 T4 Camille/Mohammad/Bryan
-___
+---
 * Multiple Contexts
 
 i) Semantics (the same word used for different meaning) - context
@@ -76,11 +76,11 @@ n) incorrect digital copies
 a) empty characters
 
 T5 David/Josh/Chris/Sadika
-___
+---
 ..
 
 Additional
-___
+---
 o) wrong author
 p) wrong unit (chapter not whole novel?)
 q) why exclude stopwords
@@ -88,8 +88,10 @@ r) what about handwriting?
 s) lost word order by looking into frequencies
 t) how about infrequent words or looking at the entire distribution
 
-Summary of issues
 ___
+
+Summary of issues
+---
 ?) words in a vacuum (no information on word frequency in relation to other words)
 
 a) Empty space as a word (stopwords/html not yet caught)
