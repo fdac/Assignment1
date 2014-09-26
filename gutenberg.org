@@ -1,0 +1,38 @@
+#+begin_src
+# This crawls entire website and downloads all .zip files
+wget -A zip -m -p -E -k -K -np ftp://ftp.ibiblio.org/pub/docs/books/gutenberg/
+
+#Get a mmaping from names to ebook id's
+perl -e 'while(<STDIN>){s/\r//g;chop(); if (/^$/){next} if (/^\s+[^\s+]/){s/\s+/ /g;$i2n{$i}.=":$_"};if (/^([^\s].*)\s+([0-9]+)$/){$i=$2;$n=$1;$n=~s/\s+/ /g;$i2n{$i}=$n}} for $i (keys %i2n){print "$i\;$i2n{$i}\n"}' < GUTINDEX.ALL > idx.1
+
+#Determine the path based on ebook id (not precise, the
+#initial 1K ebooks use another convention
+grep -v '^;' idx.1 | while read i
+do echo $i |  perl -ane 'chop();($i,$n)=split(/\;/,$_,-1);if ($i >= 10000) { @x=split(//,$i,-1);pop @x;pop @x;$p=join "/",@x;print "$i\;ftp.ibiblio.org/pub/docs/books/gutenberg/$p/$i/$i.zip;$n\n";}else{ $n=~s/(\[.+x\])//;$f = $1;$f =~ s/^\[//; $f =~ s/xxx\.xxx\]$//;print "$i\;ftp.ibiblio.org/pub/docs/books/gutenberg/etext*/${f}t.zip\;$n\n";}'
+done > num2path
+
+#now do a bunch of work trying to identify 
+#the relevant zip file: could have -8 or -0
+cat num2path | while read i 
+do n=$(echo "$i"| cut -d\; -f3-) 
+f=$(echo "$i"| cut -d\; -f2) 
+ii=$(echo "$i"| cut -d\; -f1) 
+j=$(echo $f | sed 's/\.zip/-8.zip/')
+k=$(echo $f | sed 's/\.zip/-0.zip/')
+if [[ -f $f ]] 
+then echo "$f;$ii;$n"
+ else if [[ -f $j ]]
+ then echo "$j;$ii;$n";
+  else if [[ -f $k ]]
+  then echo "$k;$ii;$n";
+  else
+  echo "no $f;$ii;$n"
+  fi
+ fi
+fi
+done > output
+
+
+See PlayWithMongo notebook on how to import into mongo and 
+use it
+#+end_src
